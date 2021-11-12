@@ -7,21 +7,26 @@ body{
     background-color: #000;
 }
 #container{
-    width: 95%;
-    min-width: 90%;
-    margin: 70px auto 70px auto;
+    width: 96%;
+    margin: 70px auto;
     overflow-x: scroll;
     display: flex;
     justify-content: space-between;
+    align-content: space-between;
     flex-wrap: wrap;
 }
 .user_cam{
+    width: 14%;
     position: relative;
+}
+
+.user_cam img{
+    width: 100%;
 }
 .user_name{
     background-color: rgba(128, 128, 128, 0.5);
     position: absolute;
-    bottom: 2px;
+    bottom: 0;
     font-size: 12px;
 }
 span{
